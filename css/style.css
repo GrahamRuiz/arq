@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.oof{
+    font-family: 'CustomFont', "roboto", sans-serif;
+    box-sizing: content-box;
+    width: 90%%;
+    border:  10px;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    position: relative; top: 1rem;
+}
+
+a {
+  color: white !important;
+}
+
+.bg-brown {
+    background-color: #27211E !important;
+}
+
+.cover-container {
+    max-width: 100em;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.inicio{
+    display: flex;
+}
+
+.square {
+    position: relative; top: 4rem;
+    height: 41.25rem;
+    width: 51.25rem;
+    background-color: whitesmoke;
+
+  }
+
+  .text {
+   display:flex;
+   justify-content:center;
+   padding-top:16rem;
+   color:black;
+  }
+
+  .sub-text {
+    display:flex;
+    justify-content:center;
+    color:black;
+   }
+
+   .imagen-ini {
+     position: relative; top: 4rem;
+     background-attachment: fixed;
+   }
+
+   .imagen-ini {
+  background-image: url('/img/inicio.jpg') ;
+  height: 41.25rem;
+  width: 51.25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-txt {
+    display: flex;
+    justify-content: center;
+    position: relative; top: 12rem;
+
+}
+
+.gallery-sub-txt {
+    display: flex;
+    justify-content: center;
+    position: relative; top: 13rem;
+}
+
+.galeria-img {
+    position: relative; top: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-txt {
+    position: relative; top: 23rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-txt-1 {
+    height: 10rem;
+    width: 31.25rem;
+}
+
+.img-txt-2 {
+    height: 10rem;
+    width: 31.25rem;
+    position: relative; left: 3rem;
+}
+
+.square-cnt {
+
+    height: 31.25rem;
+    width: 53.25rem;
+    background-color: white;
+}
+
+.cnt-img {
+    background-image: url('') ;
+    height: 41.25rem;
+    width: 51.25rem;
+}
+
+.contact {
+    position: relative; left: 1rem; top: 37rem;
+    display: flex;
+
+}
+
+
+.text-cnt {
+    padding-top:9rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.sub-text-cnt {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    opacity: 70%;
+    font-size: 0.9rem;
+}
+
+.social {
+    opacity: 100% !important;
+}
+
+.footer{
+    height: 11.25rem;
+    width: 110.5rem;
+    position: relative; top: 41rem;
+    color: white !important;
+}
+
+.f-txt {
+    padding-top: 2rem;
+}
